@@ -82,6 +82,7 @@ INSTALLED_APPS = [
     'dj_rest_auth.registration',
     'corsheaders',
     'profiles',
+    'todo',
 ]
 
 SITE_ID = 1
