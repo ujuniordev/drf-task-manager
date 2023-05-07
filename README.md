@@ -1,39 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Task Manager - API
+## Project Portfolio 5
 
-Welcome,
+[Frontend: Link to the deployed Heroku app](https://task-manager-pp5.herokuapp.com/)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Frontend: Link to the GitHub repository](https://github.com/ujuniordev/task-manager-pp5/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+[Backend: Link to the deployed Heroku app](https://drf-task-manager.herokuapp.com/)
 
-## Codeanywhere Reminders
+[Backend: Link to the GitHub repository](https://github.com/ujuniordev/drf-task-manager/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Modules
+- asgiref==3.6.0
+- cloudinary==1.32.0
+- dj-database-url==0.5.0
+- dj-rest-auth==2.1.9
+- Django==3.2.18
+- django-allauth==0.44.0
+- django-cloudinary-storage==0.3.0
+- django-cors-headers==3.14.0
+- djangorestframework==3.14.0
+- djangorestframework-simplejwt==5.2.2
+- gunicorn==20.1.0
+- oauthlib==3.2.2
+- Pillow==9.5.0
+- psycopg2==2.9.6
+- PyJWT==2.6.0
+- python3-openid==3.2.0
+- pytz==2023.3
+- requests-oauthlib==1.3.1
 
-`python3 -m http.server`
+## Libraries
+- Django Cloudinary Storage
+- Pillow (image processing capabilities)
+- Django Rest Auth
+- PostgreSQL
+- Cors Headers
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Frameworks
+- Django REST Framework
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## Platforms
+- Cloudinary - Storage of image files
+- Github - Repository with Git version control
+- GitPod - IDE used for development
+- Heroku - Hosting of DRF database (until November 2022)
+- ElephantSQL - Hosting of DRF database (from November 2022)
