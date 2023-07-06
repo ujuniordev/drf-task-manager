@@ -11,7 +11,7 @@ class IsOwnerOrReadOnly(permissions.BasePermission):
             return True
         
         # Allow PUT, PATCH, DELETE requests only if the user is the owner of the object
-        return obj.task_owner == request.user
+        return obj.owner == request.user
 
 
 class TodoView(viewsets.ModelViewSet):
