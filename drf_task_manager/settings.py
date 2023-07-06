@@ -60,7 +60,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-   os.environ.get('ALLOWED_HOST'),
+   os.environ.get('ALLOWED_HOSTS'),
    '8000-ujuniordev-drftaskmanag-kgh15g7wk58.ws-us101.gitpod.io',
 ]
 # , 'drf-task-manager.herokuapp.com', '8000-ujuniordev-drftaskmanag-kgh15g7wk58.ws-us101.gitpod.io', '3000-ujuniordev-taskmanagerp-jkhhdzrs1du.ws-us101.gitpod.io'
