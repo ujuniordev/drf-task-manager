@@ -63,7 +63,6 @@ ALLOWED_HOSTS = [
    os.environ.get('ALLOWED_HOSTS'),
    '8000-ujuniordev-drftaskmanag-kgh15g7wk58.ws-us101.gitpod.io',
 ]
-# , 'drf-task-manager.herokuapp.com', '8000-ujuniordev-drftaskmanag-kgh15g7wk58.ws-us101.gitpod.io', '3000-ujuniordev-taskmanagerp-jkhhdzrs1du.ws-us101.gitpod.io'
 
 # Application definition
 
@@ -105,10 +104,6 @@ if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
        os.environ.get('CLIENT_ORIGIN')
     ]
-# else:
-#    CORS_ALLOWED_ORIGIN_REGEXES = [
-#        r"^https://.*\.gitpod\.io$",
-#    ]
 
 if 'CLIENT_ORIGIN_DEV' in os.environ:
     extracted_url = re.match(r'^.+-', os.environ.get('CLIENT_ORIGIN_DEV', ''), re.IGNORECASE).group(0)
