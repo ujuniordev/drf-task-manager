@@ -17,10 +17,13 @@ from django.contrib import admin
 from django.urls import path, include
 from .views import root_route
 from rest_framework import routers
-from todo import views
+from todo.views import TodoView
+from profiles.views import ProfileView
+
 
 router = routers.DefaultRouter()
-router.register(r'todos', views.TodoView, 'todo')
+router.register(r'todos', TodoView, 'todo')
+router.register(r'profile', ProfileView, basename='profile')
 
 urlpatterns = [
     path('', root_route),
@@ -31,5 +34,5 @@ urlpatterns = [
         'dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')
     ),
     path('api/', include(router.urls)),
-    path('', include('profiles.urls')),
+    #path('', include('profiles.urls')),
 ]
