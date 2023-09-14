@@ -46,6 +46,58 @@
 - Heroku - Hosting of DRF database (until November 2022)
 - ElephantSQL - Hosting of DRF database (from November 2022)
 
+# Testing
+## Task Management Functionality:
+
+1.  **Add Task:**
+    
+    -   Click on the "Add Task" button or link.
+    -   Fill in the task title and description.
+    -   Click the "Save" button.
+    -   Verify that the task appears in the task list with the correct details.
+    -   PASS
+
+2.  **Edit Task:**
+    
+    -   Click on an existing task to open the task details.
+    -   Click on the "Edit" button.
+    -   Modify the task's title and/or description.
+    -   Click the "Save" button.
+    -   Verify that the task details have been updated accordingly.
+    -   PASS
+
+3.  **Delete Task:**
+    
+    -   Click on an existing task to open the task details.
+    -   Click on the "Delete" button.
+    -   Verify that the task has been removed from the task list.
+    -   PASS
+
+## User Authentication:
+
+4.  **User Registration:**
+    
+    -   Navigate to the registration page.
+    -   Fill in the registration form with a valid username and password.
+    -   Click the "Sign Up" button.
+    -   Verify that a new account is created, and the user is redirected to the login page.
+    -   PASS
+
+5.  **User Login:**
+    
+    -   Navigate to the login page.
+    -   Enter the username and password of an existing account.
+    -   Click the "Sign In" button.
+    -   Verify that the user is successfully logged in and can access their tasks.
+    -   PASS
+
+6.  **Invalid Login Attempt:**
+    
+    -   Navigate to the login page.
+    -   Enter an incorrect username or password.
+    -   Click the "Sign In" button.
+    -   Verify that the application displays an error message indicating invalid credentials.
+    -   PASS
 
 ## Deployment
 
